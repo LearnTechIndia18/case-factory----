@@ -2,6 +2,15 @@
     margin: 0;
     padding: 0;
 }
+.dropdown:hover .dropdown-menu{
+	display: block;
+}
+.dropdown-menu{
+	margin-top: 0;
+}
+
+
+
 .gal-item{
 	overflow: hidden;
 	padding: 8px;
@@ -15,3 +24,15 @@
 	width: auto;
 	object-fit:cover;
 }
+
+@media (min-width: 992px){
+	.navbar-expand-lg .navbar-collapse 
+	{
+		display: flex!important;
+		flex-basis: auto;
+		padding-right: 5rem;
+	}
+  
+}
+
+ 
